@@ -4,7 +4,7 @@ CUDA_FLAGS = -arch=sm_80 # NVIDIA A100 GPU architecture
 TARGET = mandelbrot
 SRCDIR = src
 BUILDDIR = build
-SOURCES = $(wildcard $(SRCDIR)/*.cu)
+SOURCES = $(wildcard $(SRCDIR)/*.c*)
 
 # Build rule
 $(BUILDDIR)/$(TARGET): $(SOURCES)

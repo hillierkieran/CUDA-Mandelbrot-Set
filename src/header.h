@@ -12,7 +12,6 @@
 #include <cuda_runtime.h>
 
 #include "bmpfile.h"
-#include "colour_mixer.h"
 #include "fractal_generator.h"
 
 /* Mandelbrot values */

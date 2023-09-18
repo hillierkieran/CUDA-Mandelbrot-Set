@@ -1,6 +1,6 @@
 # Variables
 NVCC = nvcc
-CUDA_FLAGS = -arch=sm_37 # Tesla K80 GPU architecture
+CUDA_FLAGS = -arch=sm_80 # NVIDIA A100 GPU architecture
 TARGET = mandelbrot
 SRCDIR = src
 BUILDDIR = build

@@ -3,6 +3,9 @@
  * @author  Kieran Hillier
  * @brief   Defines constants and includes for Mandelbrot
  *          fractal generation and image creation.
+ *
+ * @details To compile and run, use the provided makefile.
+ *          Execute using the "run" target.
  */
 
 #ifndef HEADER_H

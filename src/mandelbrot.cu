@@ -2,9 +2,9 @@
  * @file    mandelbrot.cu
  * @author  Kieran Hillier
  * @brief   Generate Mandelbrot fractal using CUDA and save as BMP image.
- * 
- * Compilation:
- * Use the provided makefile to compile and run the program.
+ *
+ * @details To compile and run, use the provided makefile.
+ *          Execute using the "run" target.
  */
 
 #include "header.h"

@@ -2,6 +2,9 @@
  * @file    fractal_generator.h
  * @author  Kieran Hillier
  * @brief   Provides CUDA kernel for Mandelbrot fractal generation.
+ *
+ * @details To compile and run, use the provided makefile.
+ *          Execute using the "run" target.
  */
 
 #ifndef FRACTAL_GENERATOR_H

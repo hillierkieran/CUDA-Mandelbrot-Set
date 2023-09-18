@@ -2,6 +2,9 @@
  * @file    fractal_generator.cu
  * @author  Kieran Hillier
  * @brief   CUDA kernel implementation for Mandelbrot fractal generation.
+ *
+ * @details To compile and run, use the provided makefile.
+ *          Execute using the "run" target.
  */
 
 #include "fractal_generator.h"

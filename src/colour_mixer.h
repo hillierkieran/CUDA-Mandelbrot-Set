@@ -8,7 +8,6 @@
 #ifndef COLOUR_MIXER_H
 #define COLOUR_MIXER_H
 
-#include <cuda_runtime.h>
 #include <math.h>
 
 /* RGB colour channel indices */

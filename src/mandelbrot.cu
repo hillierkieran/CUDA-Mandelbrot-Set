@@ -67,7 +67,7 @@ int main()
     numBlocks.y = (HEIGHT + BLOCK_SIZE - 1) / BLOCK_SIZE;
 
     /* Launch Mandelbrot generation CUDA kernel */
-    mandelbrotKernel<<<numBlocks, threadsPerBlock>>>(
+    fractal_generator<<<numBlocks, threadsPerBlock>>>(
         d_pixels, WIDTH, HEIGHT, pitch/sizeof(rgb_pixel_t));
 
     /* Check for kernel errors and synchronize device */
